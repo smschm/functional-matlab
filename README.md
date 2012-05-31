@@ -22,3 +22,11 @@ The first versions will focus on functional programming-like versions of the con
      'welcome to the apple store\n',@(x) fprintf(x),@(x) forf(@(i,s) iff(...
      s{2}==1,@(x) s,@(x) {[s{1};input('how many apples ')],strcmp(input(...
      'done (y/n)? ','s'),'y')}, 0),1:5,{[],0})),2),1)));
+
+Note that this is one function call. You may make this an anonymous function, pass it to an ODE solver, perhaps.
+
+#### Is this a joke?
+
+No.
+
+© 2012
