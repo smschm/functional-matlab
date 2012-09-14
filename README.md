@@ -24,6 +24,14 @@ The first versions will focus on functional programming-like versions of the con
 
 - **setsf**: set struct fields
 
+- **tryf**: functional try/catch
+
+- **idf**: the identity function
+
+#### Non-basic Functions:
+
+- **default**: try evaluating an expression and return a default on error
+
 #### A contrived example combining the above:
 
      fprintf('total apples requested was: %d\n',sum(cellix(cellix(manyf(...
